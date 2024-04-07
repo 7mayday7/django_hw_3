@@ -16,7 +16,6 @@ from hw3_app.models import Customer, Order, Product
 
 logger = logging.getLogger(__name__)
 
-
 def index(request):
     logger.info(f'Посещение страницы {__name__}: index')
     return render(request, 'hw3_app/index.html')
